@@ -1,27 +1,27 @@
 const questions = [
   {
     text: "Will you marry me?",
-    image: "/1.jpg",
+    image: "1.jpg",
   },
   {
     text: "And NOW?",
-    image: "/2.jpg",
+    image: "2.jpg",
   },
   {
     text: "What about now ?! 🙂",
-    image: "/3.jpeg",
+    image: "3.jpeg",
   },
   {
     text: "AAAAnd nowww? 😡",
-    image: "/4.webp",
+    image: "4.webp",
   },
   {
     text: "You have no choice now 😡",
-    image: "/last.jpg",
+    image: "last.jpg",
   },
   {
     text: "I love you baby❤️",
-    image: "/success.jpg",
+    image: "success.jpg",
   },
 ];
 

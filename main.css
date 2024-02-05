@@ -1,0 +1,106 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main_sec {
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbbca;
+}
+
+.main_sec.last {
+    background-color: transparent;
+}
+
+#hearts {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.container img {
+  max-height: 300px;
+  height: 100%;
+  width: auto;
+  max-width: 90vw;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container h1 {
+  font-size: 3rem;
+  color: #f01126;
+  text-shadow: 2px 2px 2px #131313;
+
+}
+.main_sec.last .container h1 {
+  font-size: 3rem;
+  color: #f9c25e;
+  text-shadow: 5px 5px 5px #131313;
+}
+
+.success-btn {
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  font-weight: bold;
+  background-color: #6cc070;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px 2px 2px #112121;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.danger-btn {
+  border: 0;
+  outline: 0;
+  padding: 10px 30px;
+  font-weight: bold;
+  background-color: #f03c26;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px 2px 2px #112121;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 10px ;
+    text-align: center;
+}

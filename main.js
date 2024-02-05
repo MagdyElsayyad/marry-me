@@ -12,11 +12,11 @@ const questions = [
     image: "/3.jpeg",
   },
   {
-    text: "Are you sure? 😡",
+    text: "AAAAnd nowww? 😡",
     image: "/4.webp",
   },
   {
-    text: "You have no choice now 😊",
+    text: "You have no choice now 😡",
     image: "/last.jpg",
   },
   {
@@ -50,17 +50,19 @@ function next(last = false) {
     <img src="${questions[qIndex].image}" />
     <h1>${questions[qIndex].text}</h1>
     <br/>
-   
+   <div class="btns">
    ${
      qIndex < questions.length - 1
-       ? `  <button onclick="next(true)" class="success-btn">Yes</button>`
+       ? `  <button onclick="next(true)" class="success-btn index-${qIndex}">Yes</button>`
        : ""
    }
    ${
-     qIndex !== questions.length - 1
-       ? ` <button onclick="next(false)" class="danger-btn">No</button>`
+     qIndex < questions.length - 1
+       ? ` <button onclick="next(false)" class="danger-btn index-${qIndex}"">No</button>`
        : ""
    }
+   
+   </div>
     `;
 
     container.innerHTML = htmlContent;

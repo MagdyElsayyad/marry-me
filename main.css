@@ -16,13 +16,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   background-color: #ffbbca;
 }
 
 .main_sec.last {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #hearts {
@@ -36,6 +37,19 @@ body {
 
 .container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px
+}
+
+.container .btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .container img {
@@ -53,7 +67,6 @@ body {
   font-size: 3rem;
   color: #f01126;
   text-shadow: 2px 2px 2px #131313;
-
 }
 .main_sec.last .container h1 {
   font-size: 3rem;
@@ -79,6 +92,20 @@ body {
   margin: 5px;
 }
 
+.success-btn.index-1 {
+  font-size: 18px;
+}
+.success-btn.index-2 {
+  font-size: 20px;
+}
+.success-btn.index-3 {
+  font-size: 24px;
+}
+
+.success-btn.index-4 {
+  font-size: 30px;
+}
+
 .danger-btn {
   border: 0;
   outline: 0;
@@ -97,10 +124,25 @@ body {
   margin: 5px;
 }
 
+.danger-btn.index-1 {
+  font-size: 16px;
+}
+.danger-btn.index-2 {
+  font-size: 14px;
+}
+.danger-btn.index-3 {
+  font-size: 10px;
+}
+.danger-btn.index-4 {
+  font-size: 5px;
+  padding: 5px;
+  cursor: not-allowed;
+  pointer-events: none;
+  user-select: none;
+}
 
-footer{
-    position: absolute;
-    bottom: 0;
-    padding: 10px ;
-    text-align: center;
+footer {
+
+  padding: 10px;
+  text-align: center;
 }

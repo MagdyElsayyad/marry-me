@@ -1,6 +1,6 @@
 const questions = [
   {
-    text: "Will you marry me?",
+    text: "Would you marry me?",
     image: "1.jpg",
   },
   {
@@ -12,11 +12,11 @@ const questions = [
     image: "3.jpeg",
   },
   {
-    text: "AAAAnd nowww? 😡",
+    text: "Aaaaand now? 😡",
     image: "4.webp",
   },
   {
-    text: "You have no choice now 😡",
+    text: "You have no choice, you can't say NO 😡",
     image: "last.jpg",
   },
   {
